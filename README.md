@@ -1,37 +1,36 @@
-<div style="text-align: center;">
+<div align=center>
   <img src="./resource/ff.png" width="200">
 </div>
 
 
 
 
-# EASY Level
+# 📗 EASY Level
 
 - [prime-1](./pdf/prime-1.pdf)
 - [DC-9](./pdf/DC-9.pdf)
 - [Momentum](./pdf/)
 
 
-# Medium Level
+# 📘 Medium Level
 
 
 
 
 
-# Difficult Level
-
-
-
-
----
+# 📙 Difficult Level
 
 
 
 
 ---
 
+*还在更新中...*
 
-# 硬件与软件平台
+---
+
+
+# 🎛️ 硬件与软件平台
 ## 硬件
 - Apple Macbook pro M1-Pro 32G 512G
 - macOS 14.8.4
