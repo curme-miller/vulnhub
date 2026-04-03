@@ -1,7 +1,10 @@
 <div align=center>
-  <img src="./resource/ff.png" width="200">
+  <img src="./resource/ff.png" width="160">
 </div>
 
+
+> [!NOTE]
+> 还在更新中...
 
 
 
@@ -9,7 +12,7 @@
 
 - [prime-1](./pdf/prime-1.pdf)
 - [DC-9](./pdf/DC-9.pdf)
-- [Momentum](./pdf/)
+- [Mr-Robot](./pdf/mrrobot.pdf)
 
 
 # 📘 Medium Level
@@ -23,14 +26,10 @@
 
 
 
----
-
-*还在更新中...*
 
 ---
 
-
-# 🎛️ 硬件与软件平台
+# 📦 硬件与软件平台
 ## 硬件
 - Apple Macbook pro M1-Pro 32G 512G
 - macOS 14.8.4
