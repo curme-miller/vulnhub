@@ -7,12 +7,12 @@
 > 还在更新中...
 
 
-
 # 📗 EASY Level
 
 - [prime-1](./pdf/prime-1.pdf)
 - [DC-9](./pdf/DC-9.pdf)
 - [Mr-Robot](./pdf/mrrobot.pdf)
+- [Empire-Breakout](./pdf/empire-breakout.pdf)
 
 
 # 📘 Medium Level
