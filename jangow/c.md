@@ -78,11 +78,6 @@ ffuf -u http://192.168.64.10:80/site/FUZZ -w /usr/share/wordlists/dirbuster/dire
 ```
 ![](./img/7.png)
 
-```shell
-ffuf -u http://192.168.64.10:80/FUZZ -w /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt -t 20 -rate 20 -p 0.1-0.5 -ac
-```
-![]()
-
 从上面扫描的目录可以发现有一个assets目录，里面有图片，没有可能有图片隐写？尝试一下：
 ```shell
 stegseek <图片名> /usr/share/wordlists/rockyou.txt
@@ -128,12 +123,6 @@ msf(*) > set rhosts 192.168.64.10
 msf(*) > run
 ```
 一个都没有破解出来。🌚
-
-## 5.
-
-
-
-
 
 ---
 

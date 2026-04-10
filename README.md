@@ -9,13 +9,26 @@
 
 # 📗 EASY Level
 
-- [prime-1](./pdf/prime-1.pdf)
-- [DC-9](./pdf/DC-9.pdf)
-- [Mr-Robot](./pdf/mrrobot.pdf)
-- [Empire-Breakout](./pdf/empire-breakout.pdf)
+- [prime-1](./prime-1/c.md)
+- [DC-9](./DC-9/c.md)
+- [Mr-Robot](./mrRobot/c.md)
+- [basci-pentesting-1](./basic-pentesting-1/c.md)
+- [Empire-Breakout](./empire-breakout/c.md)
+- [jangow](./jangow/c.md)
+- [Planets-Mercury](./planets-mercury/c.md)
+
+
+
+
+
+
+
+
 
 
 # 📘 Medium Level
+
+
 
 
 
@@ -27,12 +40,15 @@
 
 
 
+
+
+---
 ---
 
 # 📦 硬件与软件平台
 ## 硬件
 - Apple Macbook pro M1-Pro 32G 512G
-- macOS 14.8.4
+- macOS 14.8.5
 
 ## 软件
 - UTM虚拟机 version 4.7.5
