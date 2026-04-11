@@ -16,7 +16,7 @@
 - [Empire-Breakout](./empire-breakout/c.md)
 - [jangow](./jangow/c.md)
 - [Planets-Mercury](./planets-mercury/c.md)
-- [Hacksudo-FOG](./hackhole-FOG/c.md)
+- [Hacksudo-FOG](./hacksudo-FOG/c.md)
 
 
 
