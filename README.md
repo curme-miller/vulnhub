@@ -7,7 +7,7 @@
 > 还在更新中...
 
 
-# 📗 EASY Level
+# 📗 Easy Level
 
 - [prime-1](./prime-1/c.md)
 - [DC-9](./DC-9/c.md)
@@ -16,7 +16,7 @@
 - [Empire-Breakout](./empire-breakout/c.md)
 - [jangow](./jangow/c.md)
 - [Planets-Mercury](./planets-mercury/c.md)
-
+- [Hacksudo-FOG](./hackhole-FOG/c.md)
 
 
 
