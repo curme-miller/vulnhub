@@ -416,8 +416,9 @@ $ find / \( -path /sys -o -path /proc -o -path /root -o -path /usr -o -path /dev
 
 # 硬件与软件平台
 ## 硬件
-- Apple Macbook pro M1-Pro 32G 512G
-- `UTM虚拟机`
+- Apple Macbook pro M1-Pro `32G 512G`
+- `macOS 14.8.5`
+- `UTM虚拟机平台`
 
 ## 软件
 kali
