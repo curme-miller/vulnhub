@@ -17,9 +17,9 @@
 - [jangow](./jangow/c.md)
 - [Planets-Mercury](./planets-mercury/c.md)
 - [Hacksudo-FOG](./hacksudo-FOG/c.md)
-
-
-
+- [Hacksudo-Aliens](./hacksudo-aliens/c.md)
+- [Hacksudo-LPE](./hacksudo-LPE/c.md)
+- [Driftingblues-2](./driftingblues-2/c.md)
 
 
 
