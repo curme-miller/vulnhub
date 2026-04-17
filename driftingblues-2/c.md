@@ -251,7 +251,7 @@ sudo -l
 ```
 ![](./img/20.png)
 
-**使用GTOFBins网站查询➡️提权**
+**使用GTFOBins网站查询➡️提权**
 ![](./img/19.png)
 ![](./img/21.png)
 ![](./img/22.png)
@@ -283,6 +283,8 @@ root:$6$GFEPutgi.1nJ4e5p$1qX/vWP1PCL3cGTDWNC5PUkXxTVSRuYLeIvbITXtxdbdPQDCKl.Ezrz
 
 **4.使用file write能力**
 nmap基本无法做到纯净写入，在考虑修改/etc/pssswd时需要注意。
+
+上面那个通过ftp得到的secret.jpg图片文件，似乎没有用处。🌚
 
 ---
 ---
