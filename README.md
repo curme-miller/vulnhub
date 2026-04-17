@@ -7,38 +7,31 @@
 > 还在更新中...
 
 
-# 📗 Easy Level
-
-- [prime-1](./prime-1/c.md)
-- [DC-9](./DC-9/c.md)
+## 📔 Single
+- [jangow](./jangow/c.md)
 - [Mr-Robot](./mrRobot/c.md)
 - [basci-pentesting-1](./basic-pentesting-1/c.md)
+
+## 📓 Prime 系列
+- [prime-1](./prime-1/c.md)
+
+## 📒 DC 系列
+- [DC-9](./DC-9/c.md)
+
+## 📕 Empire 系列
 - [Empire-Breakout](./empire-breakout/c.md)
-- [jangow](./jangow/c.md)
+
+## 📗 Planet 系列
 - [Planets-Mercury](./planets-mercury/c.md)
+
+## 📘 Hacksudo 系列
 - [Hacksudo-FOG](./hacksudo-FOG/c.md)
 - [Hacksudo-Aliens](./hacksudo-aliens/c.md)
 - [Hacksudo-LPE](./hacksudo-LPE/c.md)
+
+## 📙 Driftingblues 系列
 - [Driftingblues-2](./driftingblues-2/c.md)
 - [Driftingblues-3](./driftingblues-3/c.md)
-
-
-
-
-
-# 📘 Medium Level
-
-
-
-
-
-
-
-# 📙 Difficult Level
-
-
-
-
 
 
 
@@ -47,18 +40,18 @@
 
 # 📦 硬件与软件平台
 ## 硬件
-- Apple Macbook pro M1-Pro 32G 512G
-- macOS 14.8.5
+- Apple Macbook pro `M1-Pro` `32G` `512G`
+- macOS `14.8.5`
 
 ## 软件
-- UTM虚拟机 version 4.7.5
+- UTM version `4.7.5`
 
-攻击机：kali
+**kali**
 - IP: `192.168.64.2`
 - OS Realease: `debian 2025.4`
 - `Arm64`
 
-vulnhub: 
+**vulnhub**: 
 - `https://www.vulnhub.com`
 - IP: `192.168.64.0/24`
 - `x86_64`
