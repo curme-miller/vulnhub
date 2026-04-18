@@ -38,7 +38,14 @@
 ---
 ---
 
-# 📦 硬件与软件平台
+# 🧲 系统镜像文件（包含靶机与攻击机）
+
+- 链接: `https://pan.baidu.com/s/1GPvX9ISCJ_PlEmlGW5ZiWg?pwd=1115`
+- 提取码: `1115 `
+
+---
+
+# 💻 硬件与软件平台
 ## 硬件
 - Apple Macbook pro `M1-Pro` `32G` `512G`
 - macOS `14.8.5`

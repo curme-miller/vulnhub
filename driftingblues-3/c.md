@@ -177,7 +177,6 @@ except Exception as e:
     print("[+] 投毒完成，请去网页测试 LFI。")
 ```
 
-
 1. `?cmd=whoami`
     得知当前用户是www-data.
 
@@ -260,7 +259,7 @@ kali
 - OS Realease: `debian 2025.4`
 - `Arm64`
 
-靶机driftingblues-2: 
+靶机driftingblues-3: 
 - `https://www.vulnhub.com/entry/driftingblues-3,656/`
 
 ---
