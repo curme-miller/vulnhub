@@ -30,6 +30,7 @@
 - [Hacksudo-LPE](./hacksudo-LPE/c.md)
 
 ## 📙 Driftingblues 系列
+- [Driftingblues-1](./driftingblues-1/c.md)
 - [Driftingblues-2](./driftingblues-2/c.md)
 - [Driftingblues-3](./driftingblues-3/c.md)
 - [Driftingblues-4](./driftingblues-4/c.md)
