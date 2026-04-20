@@ -198,7 +198,7 @@ kali
 
 靶机driftingblues-4: 
 - `https://www.vulnhub.com/entry/driftingblues-4,661/`
-- IP: `192.168.64.29`
+- IP: `192.168.64.30`
 
 ---
 
