@@ -35,6 +35,7 @@
 - [Driftingblues-3](./driftingblues-3/c.md)
 - [Driftingblues-4](./driftingblues-4/c.md)
 - [Driftingblues-5](./driftingblues-5/c.md)
+- [Driftingblues-6](./driftingblues-6/c.md)
 
 ---
 ---
@@ -58,11 +59,13 @@
 - IP: `192.168.64.2`
 - OS Realease: `debian 2025.4`
 - `Arm64`
+- CPU Cores: `4`
 
 **vulnhub**: 
 - `https://www.vulnhub.com`
 - IP: `192.168.64.0/24`
 - `x86_64`
+- CPU Cores: `2`
 
 ---
 
