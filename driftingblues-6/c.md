@@ -169,13 +169,14 @@ gcc -pthread 40839.c -o 40839 -lcrypt
 kali
 - IP: `192.168.64.2`
 - OS Realease: `debian 2025.4`
-- `Arm64`
-- 核心: `4`
+- CPU Arch: `Arm64`
+- CPU Cores: `4`
 
 靶机: 
-- ``
+- website: `https://www.vulnhub.com/entry/driftingblues-6,672/`
 - IP: `192.168.64.`
-- 核心: `2`
+- CPU Arch: `x86_amd_64`
+- CPU Cores: `2`
 
 ---
 

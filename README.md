@@ -21,6 +21,9 @@
 ## 📕 Empire 系列
 - [Empire-Breakout](./empire-breakout/c.md)
 
+## 📋 Cybersploit 系列
+- [Cybersploit-1](./basic-pentesting-1/c.md)
+
 ## 📗 Planet 系列
 - [Planets-Mercury](./planets-mercury/c.md)
 
@@ -58,13 +61,13 @@
 **kali**
 - IP: `192.168.64.2`
 - OS Realease: `debian 2025.4`
-- `Arm64`
+- CPU Arch: `Arm64`
 - CPU Cores: `4`
 
 **vulnhub**: 
-- `https://www.vulnhub.com`
+- website: `https://www.vulnhub.com`
 - IP: `192.168.64.0/24`
-- `x86_64`
+- CPU Arch: `x86_amd_64`
 - CPU Cores: `2`
 
 ---
