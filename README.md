@@ -39,6 +39,7 @@
 - [Driftingblues-4](./driftingblues-4/c.md)
 - [Driftingblues-5](./driftingblues-5/c.md)
 - [Driftingblues-6](./driftingblues-6/c.md)
+- [Driftingblues-7](./driftingblues-7/c.md)
 
 ---
 ---
