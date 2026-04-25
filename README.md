@@ -16,6 +16,7 @@
 - [prime-1](./prime-1/c.md)
 
 ## 📒 DC 系列
+- [DC-2](./DC-2/c.md)
 - [DC-9](./DC-9/c.md)
 
 ## 📕 Empire 系列
@@ -39,7 +40,7 @@
 - [Driftingblues-4](./driftingblues-4/c.md)
 - [Driftingblues-5](./driftingblues-5/c.md)
 - [Driftingblues-6](./driftingblues-6/c.md)
-- [Driftingblues-7](./driftingblues-7/c.md)
+- [Driftingblues-9](./driftingblues-9/c.md)
 
 ---
 ---
