@@ -18,6 +18,7 @@
 ## 📒 DC 系列
 - [DC-2](./DC-2/c.md)
 - [DC-3](./DC-3/c.md)
+- [DC-4](./DC-4/c.md)
 - [DC-9](./DC-9/c.md)
 
 ## 📕 Empire 系列
