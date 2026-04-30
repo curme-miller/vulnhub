@@ -19,6 +19,7 @@
 - [DC-2](./DC-2/c.md)
 - [DC-3](./DC-3/c.md)
 - [DC-4](./DC-4/c.md)
+- [DC-5](./DC-5/c.md)
 - [DC-9](./DC-9/c.md)
 
 ## 📕 Empire 系列
@@ -71,7 +72,7 @@
 **vulnhub**: 
 - website: `https://www.vulnhub.com`
 - IP: `192.168.64.0/24`
-- CPU Arch: `x86_amd_64`
+- CPU Arch: `x86/x64/i686`
 - CPU Cores: `2`
 
 ---
