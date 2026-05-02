@@ -21,6 +21,7 @@
 - [DC-4](./DC-4/c.md)
 - [DC-5](./DC-5/c.md)
 - [DC-6](./DC-6/c.md)
+- [DC-7](./DC-7/c.md)
 - [DC-9](./DC-9/c.md)
 
 ## 📕 Empire 系列
