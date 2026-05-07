@@ -26,7 +26,7 @@
 - [DC-9](./DC-9/c.md)
 
 ## 💴 HA 系列
-- []()
+- [HA-dhanush](./HA-dhanush/c.md)
 - []()
 
 ## 💵 Darkhole
