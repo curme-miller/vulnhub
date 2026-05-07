@@ -27,7 +27,7 @@
 
 ## 💴 HA 系列
 - [HA-dhanush](./HA-dhanush/c.md)
-- []()
+- [HA-chanakya](./HA-chanakya/c.md)
 
 ## 💵 Darkhole
 - [Darkhole-1](./Darkhole-1/c.md)
